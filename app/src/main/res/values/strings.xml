@@ -1,0 +1,24 @@
+<resources>
+    <!--<string name="app_name">Speech1</string>-->
+    <string name="app_name">Speech Navigator</string>
+    <string name="error_audio_error">Audio error.</string>
+    <string name="error_client">Client error.</string>
+    <string name="error_permission">Insufficient permissions error.</string>
+    <string name="error_network">Network error.</string>
+    <string name="error_timeout">Timeout error.</string>
+    <string name="error_no_match">No match error.</string>
+    <string name="error_busy">Busy error.</string>
+    <string name="error_server">Server error.</string>
+    <string name="error_understand">Understanding error.</string>
+
+    <!--<string name="luisAppID">df67dcdb-c37d-46af-88e1-8b97951ca1c2</string>-->
+    <string name="luisAppID">b252355d-b777-45c0-8a10-7cad6a8d9357</string>
+    <string name="luisSubscriptionID">8451b52236be4972ac1b0aa4681f0f09</string>
+
+    <string name="infoTextEng">You can ask me where you are, or tell me where you would like to go.</string>
+    <string name="infoPlusTextEng">Long press the bottom of the screen to switch languages.</string>
+    <string name="infoTextHu">Megkérdezheted tőlem, hogy merre jársz éppen, vagy hogy mi merre van.</string>
+    <string name="infoPlusTextHu">Nyomd hosszan a képernyőd alját, ha nyelvet szeretnél váltani.</string>
+    <string name="waitInputEng">Pardon?</string>
+    <string name="waitInputHu">Igen?</string>
+</resources>

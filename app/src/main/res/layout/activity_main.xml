@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MainActivityLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/SCROLLER_ID"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:scrollbars="vertical"
+        android:fillViewport="true" >
+
+        <TextView
+            android:id="@+id/luisResult"
+            android:singleLine="false"
+            android:textSize="14sp"
+            android:fontFamily="monospace"
+            android:background="@color/primary_light"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginHorizontal="20dp"
+        android:weightSum="7"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:textColor="@color/primary_text"
+            android:text="Microphone level: " />
+        <TextView
+            android:id="@+id/VisualizerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="6.3"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:textColor="@color/primary_text"
+            android:text="-" />
+        <ToggleButton
+            android:id="@+id/LanguageSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:textSize="14sp"
+            android:textColor="@color/primary_text"
+            android:textOn="HU"
+            android:textOff="EN"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/StartButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Listen!"
+        android:textAllCaps="false"
+        android:textSize="70sp"
+        android:textColor="@color/icons"
+        android:backgroundTint="@color/primary_text"
+        android:textAlignment="center" />
+
+    <!--<TextView
+        android:id="@+id/luisResult"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:singleLine="false"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="14sp"
+        android:fontFamily="monospace"
+        android:background="@color/primary_light"/>-->
+
+
+
+</LinearLayout>
